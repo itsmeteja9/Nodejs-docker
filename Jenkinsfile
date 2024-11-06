@@ -1,5 +1,5 @@
 pipeline { 
-
+  agent any
     environment { 
 
         registry = "itsmeteja9/nodejs-docker" 
@@ -11,16 +11,6 @@ pipeline {
     }
    
     stages { 
-
-        stage('Compile and Build Jar') { 
-
-            steps { 
-
-                bat 'npm install'
-
-            }
-
-        } 
 
         stage('Building our image') { 
 
