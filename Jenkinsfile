@@ -2,7 +2,7 @@ pipeline {
 
     environment { 
 
-        registry = "itsmeteja9/java-docker" 
+        registry = "itsmeteja9/nodejs-docker" 
 
         registryCredential = 'dockerjenkinsintegration' 
 
